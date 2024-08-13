@@ -2,17 +2,15 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['nuxt-icons', "@nuxtjs/google-fonts"],
+  modules: [
+    'nuxt-icons',
+    "@nuxtjs/google-fonts",
+    'nuxt3-vuex-module'
+  ],
   googleFonts: {
     families: {
-      // Roboto: true,
-      Inter: true,
-      // Lato: true,
-      // Inter: '200..700',
-      // 'Crimson Pro': {
-      //   wght: '200..900',
-      //   ital: '200..700',
-      // }
+      Roboto: true,
+      Lato: true,
     }
   }
 })

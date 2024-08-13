@@ -17,12 +17,35 @@
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .basket{
   display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+  margin-right: 30px;
 }
-.count_product{
 
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .nuxt-icon{
+    height: fit-content;
+  }
+}
+
+.title{
+  font-size: 14px;
+}
+
+.count_product{
+  font-size: 12px;
+  color: #797B86;
+}
+
+.total_cost{
+  font-size: 12px;
 }
 
 </style>

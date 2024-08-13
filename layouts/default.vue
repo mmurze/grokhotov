@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="wrapper">
+    <div class="wrapper" style="font-family: 'Roboto';">
       <Header/>
       <slot/>
     </div>
@@ -11,7 +11,11 @@
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+p{
+  margin: 0;
+  padding: 0;
+}
 .wrapper {
   width: 100%;
   max-width: 1200px;
